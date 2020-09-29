@@ -1,0 +1,165 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+body{
+  background-color: lightgrey;
+  overflow: hidden
+}
+
+
+img{
+  max-width: 100% !important;
+  width: 0 \ auto
+
+}
+
+
+#main-container{
+
+  margin: 20px auto;
+  max-width: 900px;
+  height: 100%;
+  overflow: hidden;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.imagen:hover {
+  filter: opacity(.5);}
+
+.imagen:hover {filter: opacity(.5);}
+
+.block
+ {
+
+  width: 31.33%;
+  min-height: auto;
+  float: left;
+  margin: 1%;
+  box-sizing: border-box;
+ }
+
+  h2{
+    padding: 0;
+    margin: 0
+
+  }
+
+
+  figure{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+
+  figcaption{
+    padding: 10px 0px;
+    background-conglor: rgba(111, 211, 122, .8);
+    transition-delay: inherit;
+    z-index: 2
+
+  }
+
+
+  .thumbnail{
+    text-align: center;
+    margin-top: 5%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    transform:scale(1);
+    -ms-transform:scale(1);
+    -moz-transform:scale(1);
+
+}
+.thumbnail:hover{
+        transform:scale(0.8);
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+
+  }
+
+
+.more{
+  border: none;
+  padding: 10px 15px;
+  margin: 0;
+  position: relative;
+  top: -60px;
+  visibility: hidden;
+}
+
+
+.title{
+  background-color: darkred;
+  text-align: center;
+
+}
+
+/**
+ *  Añadir con JQuery
+ */
+
+.jq-figcaption-hover{
+  top: 78px;
+  position: relative;
+}
+
+
+.jq-figcaption-leave{
+
+  top: 0px;
+  position: relative;
+}
+
+
+/**
+ *  Animaciones
+ */
+ @-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    top: 100px;
+  }
+  75% {
+    opacity: 0.5;
+    top: 0px;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width:640px){
+  .block{
+
+    width: 47.9%
+
+  }
+
+    .first-child{
+      width: 98%;
+      background-color: red;
+      clear: both;
+
+    }
+
+    .last-child{
+      width: 98%;
+      background-color: darkgreen;
+      clear: both;
+    }
+
+}
+@media screen and (max-width:380px){
+
+  .block{
+    width: 98%;
+
+  }
+
+}
