@@ -1,15 +1,21 @@
 import { Component, OnInit } from '@angular/core';
+import { ServicioService } from 'C:/Trabajo soporte/Alexis/Universidad/FRON-END/Pokemon-master/Pokemon-master/src/servicio/servicio.service';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent{
 
-  constructor() { }
+  constructor(public _servicio: ServicioService) { }
 
-  ngOnInit(): void {
+  ngPokemon(): void{
+      this._servicio.getPokemons().subscribe(
+        (res: any)=>{
+          console.log(res)
+        }
+        );
   }
 
 }
