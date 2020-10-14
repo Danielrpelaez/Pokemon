@@ -14,7 +14,8 @@ body{
   overflow: hidden
 
 img{
-  max-width: 100% !important;
+
+  max-width: 100% !important
   width: 0 \ auto
 
 }
@@ -193,3 +194,11 @@ img{
   position: relative
   top: -60px
   visibility: hidden }
+
+.jq-figcaption-hover{
+  top: 78px
+  position: relative}
+
+.jq-figcaption-leave{
+  top: 0px
+  position: relative  }
