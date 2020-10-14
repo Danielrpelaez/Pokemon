@@ -28,3 +28,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 # GaleriaPokemon
 # Pokemon
 ##### este es un comentario de Jhoan gutierrez
+##
