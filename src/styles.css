@@ -159,6 +159,10 @@ img{
 
   }
 
+ figcaption{
+    padding: 10px 0px
+    background-color: rgba(111, 211, 122, .8)
+ }
     .first-child{
       width: 98%;
       background-color: red;
@@ -181,3 +185,11 @@ img{
   }
 
 }
+
+.more {
+  border: none
+  padding: 10px 15px
+  margin: 0
+  position: relative
+  top: -60px
+  visibility: hidden }
