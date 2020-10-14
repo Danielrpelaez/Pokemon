@@ -6,6 +6,12 @@ body{
   overflow: hidden
 }
 
+#main-container
+  margin: 20px auto
+  max-width: 900px
+  background-color: grey
+  height: 100%
+  overflow: hidden
 
 img{
   max-width: 100% !important;
@@ -39,13 +45,20 @@ img{
   box-sizing: border-box;
  }
 
-  h2{
-    padding: 0;
+  h2 {
+    padding: 0
     margin: 0
 
   }
 
-
+.block {
+  background-color: steelblue
+  width: 31.33%
+  min-height: $min-height-block
+  float: left
+  margin: 1%  
+  +box-sizing(border-box)
+ }
   figure{
     margin: 0;
     padding: 0;
@@ -53,6 +66,11 @@ img{
     text-align: center;
   }
 
+  figure{
+    margin: 0
+    padding: 0
+    width: 100%
+    text-align: center }
 
   figcaption{
     padding: 10px 0px;
@@ -62,7 +80,11 @@ img{
 
   }
 
-
+  figure
+    margin: 0
+    padding: 0
+    width: 100%
+    text-align: center
   .thumbnail{
     text-align: center;
     margin-top: 5%;
