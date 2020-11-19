@@ -3,8 +3,7 @@ pipeline {
   stages {
     stage('Prueba5') {
       steps {
-        sh '''npm install
-ng serve'''
+        sh 'ng serve'
       }
     }
 
