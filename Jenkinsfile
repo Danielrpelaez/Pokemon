@@ -10,8 +10,7 @@ pipeline {
     stage('Prueba3') {
       steps {
         sh '''npm install
-ng bulid --prod
-mv dist/Test/* var/www/html'''
+ng bulid --prod'''
       }
     }
 
