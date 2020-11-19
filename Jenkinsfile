@@ -4,8 +4,8 @@ pipeline {
     stage('Prueba5') {
       steps {
         sh '''npm install
-ng build --prod
-ng serve'''
+npm run ng build --prod
+npm run ng serve'''
       }
     }
 
