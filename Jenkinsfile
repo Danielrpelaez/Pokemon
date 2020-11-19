@@ -1,16 +1,11 @@
 pipeline {
   agent any
   stages {
-    stage('Prueba') {
-      steps {
-        bat 'npm install'
-      }
-    }
-
-    stage('Prueba3') {
+    stage('Prueba5') {
       steps {
         sh '''npm install
-ng bulid --prod'''
+ng build --prod
+ng serve'''
       }
     }
 
